@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- 
+
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
+import BaseHTTPServer
 import cgi #for POST request
 
 #CRUD---We already set up the restaurant database in the previous lesson, so we can direct quote it
